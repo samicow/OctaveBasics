@@ -19,8 +19,8 @@ classdef Testx < handle
     endfunction
 
 
-    function sam(self, z)
-      self.Ts = z+1;
+    function sam(self, a , b)
+      self.Ts = a+b;
 
 
     endfunction

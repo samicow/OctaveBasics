@@ -12,8 +12,12 @@ value = 2;
 
  disp(" ok " );
 
- objeto.sam(3)
+ objeto.sam(3,4)
 
 whatever = objeto.Ts;
+
+dlmwrite("../meuResultado.txt", ...
+            [objeto.Ts objeto.x], "delimiter", " ");
+
 
   endfunction
