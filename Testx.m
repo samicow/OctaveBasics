@@ -14,7 +14,7 @@ classdef Testx < handle
       self.x = x;
       self.Ts = 6;
 
-      disp ("New instance createdsewe.");
+      disp ("New instance created.");
 
     endfunction
 
